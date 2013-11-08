@@ -15,7 +15,7 @@ dnl ***************************
 m4_define([taskmanager_version_major], [1])
 m4_define([taskmanager_version_minor], [0])
 m4_define([taskmanager_version_micro], [0])
-m4_define([taskmanager_version_build], [e96703c])
+m4_define([taskmanager_version_build], [ac12d29])
 m4_define([taskmanager_version_tag], [])
 m4_define([taskmanager_version], [taskmanager_version_major().taskmanager_version_minor().taskmanager_version_micro()ifelse(taskmanager_version_tag(), [git], [taskmanager_version_tag()-taskmanager_version_build()], [taskmanager_version_tag()])])
 
